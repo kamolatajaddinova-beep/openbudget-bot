@@ -10,7 +10,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from database import init_db, add_user, update_user_vote
 from openbudget_api import send_openbudget_sms, verify_openbudget_code
 
-TOKEN = "8905603586:AAHsAFlidgu68xH5THVZWylYR-G4hOmzFIc"
+TOKEN = "8905603586:AAGTCOGWHOQpPUHLw4HpozwdPmGxNT_CH-s"
 ADMIN_ID = "123456"
 
 bot = Bot(token=TOKEN)
