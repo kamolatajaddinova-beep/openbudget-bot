@@ -37,7 +37,7 @@ async def cmd_start(message: types.Message):
     )
 
 async def main():
-    await init_db()
+    init_db()
     logging.basicConfig(level=logging.INFO)
     await dp.start_polling(bot)
 
